@@ -1,14 +1,22 @@
+@charset "UTF-8";
 header {
+  background-color: #ffffff;
   display: flex;
+  margin: -10px;
+  margin-bottom: none;
+  padding: 10px;
 }
 header #navigation {
   margin-left: auto;
   align-items: left;
 }
+header a {
+  color: #000000;
+}
 
 button {
   background: none;
-  border: none;
+  border-radius: 5px;
   padding: 10px;
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 20px;
@@ -20,17 +28,68 @@ button:hover {
   padding: 10px;
 }
 
-body {
-  color: #FFFFFF;
+.mainbody {
+  color: #ffffff;
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 20px;
+  background-image: url(../kuvat/asuntola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-main background {
-  background-image: url(..kuvat\a suntola.jpg);
-  size: cover;
-  position: center;
-  height: 100px;
+main {
+  margin-top: 100px;
+}
+main h1 {
+  color: #000000;
+  text-align: center;
+  padding: 100px;
+}
+
+section {
+  position: relative;
+  top: 50px;
+  background-color: rgb(192, 192, 192);
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 35px;
+}
+section .teksti {
+  text-align: left;
+  color: #000000;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 10px;
+}
+footer .me {
+  color: #000000;
+}
+footer #minä {
+  font-size: 30px;
+}
+footer #auttaja {
+  font-size: 25px;
+}
+
+.asunnot {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.asunnot #asunto1 {
+  background-image: url("../kuvat/asunto1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.asunnot a {
+  color: #000000;
+  padding-right: 70px;
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
