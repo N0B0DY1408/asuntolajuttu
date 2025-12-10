@@ -1,6 +1,5 @@
 $vari: #000000
 $rgb: rgb(192,192,192)
-$gap: 10px
 $hianofontti: Brush Script MT, Brush Script Std, cursive
 $tekstikoko: 20px
 $vaalea: #ffffff
@@ -9,12 +8,14 @@ html
     
 
     
-header
+.header
     background-color: $vaalea 
     display: flex
-    margin: -10px
-    margin-bottom: none
-    padding: 10px
+    padding-left: 10px
+    padding-right: 10px
+    padding-bottom: 10px
+    padding-top: 25px
+    max-width: 100%
     #navigation
         margin-left: auto
         align-items: left
@@ -25,14 +26,14 @@ header
 button
     background: none
     border-radius: 5px
-    padding: $gap
+    padding: 10px
     font-family: $hianofontti
     font-size: $tekstikoko
 
 button:hover
     background: $rgb
     border-radius: 5px
-    padding: $gap
+    padding: 10px
 
 .mainbody
     color: $vaalea
@@ -41,10 +42,15 @@ button:hover
     background-image: url(../kuvat/asuntola.jpg)
     background-repeat: no-repeat
     background-size: cover 
+    margin: -18px
+    margin-top: -175px
+    max-width: 100%
+    
 
 
 main
-    margin-top: 100px
+    margin: 200px
+    max-width: 100%
     h1
         color: $vari
         text-align: center
@@ -53,13 +59,14 @@ main
 section
     position: relative
     top: 50px
-    background-color: $rgb
-    margin-left: -10px
+    background-color: $rgb  
     margin-right: -10px
     padding-bottom:35px
+    max-width: 100%
     .teksti
         text-align: left
         color: $vari
+        padding: 10px
 
 footer
     margin-top: 50px
@@ -78,6 +85,7 @@ footer
 .asunnot
     font-size: 20px
     margin-bottom: 100px
+    padding: 10px
     #asunto1
         background-image: url('../kuvat/asunto1.webp')
         background-repeat: no-repeat

@@ -8,17 +8,20 @@
     <title>Koivuhaan asuntolat</title>
 </head>
 
-<header>
-    <?php
-    include 'header.php';
-    ?>
-</header>
+<body>
 
-<body class="mainbody">
+<?php
+include 'header.php';
+?>
 
-<main>
-    <h1 class="otsikko">Koivuhaan asuntolat</h1>
-</main>
+
+
+<div class="mainbody">
+    <main>
+        <h1 class="otsikko">Koivuhaan asuntolat</h1>
+    </main>
+<div>
+
 
 <section>
     <?php

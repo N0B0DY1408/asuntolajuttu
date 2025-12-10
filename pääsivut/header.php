@@ -5,6 +5,8 @@
     <title>header</title>
 </head>
 <body>
+
+<header class="header">
 <button><a href="etusivu.php">Koivuhaan asuntolat</a></button>
 
 <nav id="navigation">
@@ -12,5 +14,7 @@
     <button><a href="me.php">Tietoa meistä</a></button>
     <button><a href="yhteys.php">Ota yhteyttä</a></button> 
 </nav>
+</header>
+
 </body>
 </html>

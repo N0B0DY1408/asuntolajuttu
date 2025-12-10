@@ -1,16 +1,18 @@
 @charset "UTF-8";
-header {
+.header {
   background-color: #ffffff;
   display: flex;
-  margin: -10px;
-  margin-bottom: none;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 25px;
+  max-width: 100%;
 }
-header #navigation {
+.header #navigation {
   margin-left: auto;
   align-items: left;
 }
-header a {
+.header a {
   color: #000000;
 }
 
@@ -35,10 +37,14 @@ button:hover {
   background-image: url(../kuvat/asuntola.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: -18px;
+  margin-top: -175px;
+  max-width: 100%;
 }
 
 main {
-  margin-top: 100px;
+  margin: 200px;
+  max-width: 100%;
 }
 main h1 {
   color: #000000;
@@ -50,13 +56,14 @@ section {
   position: relative;
   top: 50px;
   background-color: rgb(192, 192, 192);
-  margin-left: -10px;
   margin-right: -10px;
   padding-bottom: 35px;
+  max-width: 100%;
 }
 section .teksti {
   text-align: left;
   color: #000000;
+  padding: 10px;
 }
 
 footer {
@@ -80,6 +87,7 @@ footer #auttaja {
 .asunnot {
   font-size: 20px;
   margin-bottom: 100px;
+  padding: 10px;
 }
 .asunnot #asunto1 {
   background-image: url("../kuvat/asunto1.webp");
